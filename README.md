@@ -14,8 +14,8 @@ it buys interoperability by construction while giving up the check. A wire imple
 describes the program that implements it, and nothing establishes that the specification is
 implementable from the specification. Khronos ratifies against two implementations for this.
 
-`pywebtransport` shares no line of code with picoquic: its QUIC core is Rust. Where the two
-disagree, one of them is wrong about the contract.
+`aioquic` shares no line of code with picoquic: its QUIC and its TLS 1.3 are written in Python
+from the RFCs. Where the two disagree, one of them is wrong about the contract.
 
 ## What it terminates
 
