@@ -11,9 +11,10 @@ It terminates control streams and passes each command line to the ring and the r
 ```sh
 pixi run check
 pixi run selftest
+pixi run serve
 ```
 
-`pixi run check` runs the conformance gate against the golden vectors, and `pixi run selftest` shows it failing on purpose.
+`pixi run check` runs the conformance gate against the golden vectors, and `pixi run selftest` shows it failing on purpose. `pixi run serve` starts the gateway and needs a `cert.pem` and `key.pem` in the working directory.
 
 ## Licence
 
